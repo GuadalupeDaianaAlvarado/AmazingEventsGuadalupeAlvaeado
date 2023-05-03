@@ -10,138 +10,149 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 <body>
-    <div class="layout bg-black d-flex flex-column align-items-center text-white">
 
-        <header class="d-flex justify-content-around align-items-center ">
-            <nav class=" navbar navbar-expand-lg bg-info">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="../image/Logo_Amazing_Events-removebg-preview.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-        
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./upcomingevents.html">Upcoming-events</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./pastevents.html">Past-events</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Stats</a>
-                    </li>
-                  </ul>
-                </div>
-                </div>
-            </nav>
-            </header>
 
-    <main class="main">
-      <section class="d-flex justify-content-center align-items-center p-3">
-        <h2>Stats</h2>
+  <header>
+    <div class="imgnav">
+      <img src="../image/Logo_Amazing_Events-removebg-preview.png" alt="">
+    </div>
+    <nav class="classnav">
+      <a href="../index.html">Home</a>
+      <a href="../assest/upcomingevents.html">Up Coming Events</a>
+      <a href="../assest/pastevents.html">Past Events</a>
+      <a href="./contact.html">Contact</a>
+      <a href="#">Stats</a>
+    </nav>
+
+  </header>
+
+    <main class="main ">
+      <section class="d-flex justify-content-center align-items-center p-1 bg-black text-white">
+       <h2>Stats</h2>
       </section>
 
+      <section class=" d-flex justify-content-evenly align-items-center flex-grow-1 bg-black text-white p-2">
+        <form  action="./show_data.html" method="get">
+          <fieldset>
+            <input type="checkbox" name="Category1" id="Category1" value="Category1">
+            <label for="Category1">Category</label>
 
-    <div class=" d-flex justify-content-evenly align-items-center">
+            <input type="checkbox" name="Category2" id="Category2" value="Category2">
+            <label for="Category2">Category</label>
+
+            <input type="checkbox" name="Category3" id="Category3" value="Category3">
+            <label for="Category3">Category</label>
+
+            <input type="checkbox" name="Category4" id="Category4" value="Category4">
+            <label for="Category4">Category</label>
+
+            <input type="checkbox" name="Category5" id="Category5" value="Category5">
+            <label for="Category5">Category</label>
+          </fieldset>
+        </form>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search"  aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">🔍︎</button>
+        </form>
+      </section>
+      <br>
+
+      <section class="sectioncard">
         <table>
-            <tr>
-                <th> Events Statics</th>
-            </tr>
+          <tr>
+              <th> Events Statics</th>
+          </tr>
 
-            <tr>
-                <td> Events with the highest percentage of affendance </td>
-                <td> Events with the lowest percentage of affendance </td>
-                <td> Events with lager capacity </td>
-            </tr>
-            <tr>
-                <td> .</td>
-                <td> .</td>
-                <td> .</td>
-            </tr>
-            <tr>
-                <th> Upcoming events statistics by category</th>
-            </tr>
+          <tr>
+              <td> Events with the highest percentage of affendance </td>
+              <td> Events with the lowest percentage of affendance </td>
+              <td> Events with lager capacity </td>
+          </tr>
+          <tr>
+              <td> .</td>
+              <td> .</td>
+              <td> .</td>
+          </tr>
+          <tr>
+              <th> Upcoming events statistics by category</th>
+          </tr>
 
-            <tr>
-                <td> Categories</td>
-                <td> Revenues </td>
-                <td> Poecentage of affendance</td>
-            </tr>
-            <tr>
-                <td> .</td>
-                <td> .</td>
-                <td> .</td>
-            </tr>
-            <tr>
-                <td> .</td>
-                <td> .</td>
-                <td> .</td>
-            </tr>
-            <tr>
-                <td> .</td>
-                <td> .</td>
-                <td> .</td>
-            </tr>
-            <tr>
-                <th> Past Events statistics by category </th>
-            </tr>
+          <tr>
+              <td> Categories</td>
+              <td> Revenues </td>
+              <td> Poecentage of affendance</td>
+          </tr>
+          <tr>
+              <td> .</td>
+              <td> .</td>
+              <td> .</td>
+          </tr>
+          <tr>
+              <td> .</td>
+              <td> .</td>
+              <td> .</td>
+          </tr>
+          <tr>
+              <td> .</td>
+              <td> .</td>
+              <td> .</td>
+          </tr>
+          <tr>
+              <th> Past Events statistics by category </th>
+          </tr>
 
-            <tr>
-                <td> Categories</td>
-                <td> Revenues </td>
-                <td> Poecentage of affendance</td>
-            </tr>
-            <tr>
-                <td> .</td>
-                <td> .</td>
-                <td> .</td>
-            </tr>
-            <tr>
-                <td> .</td>
-                <td> .</td>
-                <td> .</td>
-            </tr>
-            <tr>
-                <td> .</td>
-                <td> .</td>
-                <td> .</td>
-            </tr>
-            <tr>
-                <td> .</td>
-                <td> .</td>
-                <td> .</td>
-            </tr>
-            <tr>
-                <td> .</td>
-                <td> .</td>
-                <td> .</td>
-            </tr>
-    
-    
-            </table>
+          <tr>
+              <td> Categories</td>
+              <td> Revenues </td>
+              <td> Poecentage of affendance</td>
+          </tr>
+          <tr>
+              <td> .</td>
+              <td> .</td>
+              <td> .</td>
+          </tr>
+          <tr>
+              <td> .</td>
+              <td> .</td>
+              <td> .</td>
+          </tr>
+          <tr>
+              <td> .</td>
+              <td> .</td>
+              <td> .</td>
+          </tr>
+          <tr>
+              <td> .</td>
+              <td> .</td>
+              <td> .</td>
+          </tr>
+          <tr>
+              <td> .</td>
+              <td> .</td>
+              <td> .</td>
+          </tr>
+  
+  
+          </table>
+      
 
-    </div>
+
+      </section>
     </main>
 
-    <footer class="w-100 bg-info d-flex justify-content-between align-items-center ">
+    <footer>
 
-        <div class=" w-30 d-flex justify-content-around align-items-center ">
-            <img class=" imgfooter p-2 " src="../image/insta.png" alt="...">
-            <img class=" imgfooter p-2 " src="../image/face.png" alt="...">
-            <img class=" imgfooter p-2 " src="../image/wsp.png" alt="...">
-        </div>
-          <h3 class="text-dark m-2">Cohort 47</h3>
-      </footer>
-    
+      <div class=" w-50 h-10 d-flex  align-items-center ">
+        <a target="_blank" href="https://www.instagram.com/"><img class=" imgfooter  " src="../image/insta.png" alt="..."></a>
+        <a target="_blank" href="https://es-la.facebook.com/"><img class=" imgfooter  " src="../image/face.png" alt="..."></a>
+        <a target="_blank" href="https://web.whatsapp.com/"><img class=" imgfooter " src="../image/wsp.png" alt="..."></a>
+       </div>
+        <h6 class="text-white m-2">Cohort 47 - Guadalupe Daiana Alvarado</h6>
+    </footer>
     </div>
-
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </html>     
+
+
+
