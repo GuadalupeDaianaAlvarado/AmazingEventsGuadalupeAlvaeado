@@ -93,19 +93,26 @@ header{
     justify-content: space-around;  
     align-items: center;
     text-align: center;
-    min-width: 100vh;
+    min-width: 70vh !important;
     
 }
 .classnav a{
     text-decoration: none;
     color: whitesmoke;
-    padding: 1rem;
 }
 .imgnav{
     display: flex;
     align-items: center;
 }
-
+/* #formSearch{
+    display: flex;
+    min-width: 10rem !important;
+}
+ .search{
+    display: flex;
+    min-width: 10rem !important;
+ } */
+ 
 .main{
     min-height: 80vh;
     flex-wrap: wrap;
@@ -125,3 +132,22 @@ footer{
 .imgfooter{
     width: 3rem;
 }
+@media (max-width: 767px) {
+    .sectioncard {
+      flex-direction: column;
+      min-height: auto;
+    }
+    .card {
+      min-height: auto !important;
+    }
+    .classnav .hamburger-button {
+        display: block;
+      background-color: transparent;
+      color: whitesmoke;
+      border: none;
+      padding: 0;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  }
+
