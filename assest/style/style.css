@@ -104,15 +104,7 @@ header{
     display: flex;
     align-items: center;
 }
-/* #formSearch{
-    display: flex;
-    min-width: 10rem !important;
-}
- .search{
-    display: flex;
-    min-width: 10rem !important;
- } */
- 
+
 .main{
     min-height: 80vh;
     flex-wrap: wrap;
